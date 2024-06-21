@@ -1,0 +1,20 @@
+.contenedorPokedex .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.inputPokedex {
+  width: 800px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ababab;
+  border-radius: 5px;
+  background-color: rgba(225, 232, 254, 0.671);
+  font-family: Helvetica;
+  margin-top: 20px;
+  margin-left: 17%;
+}

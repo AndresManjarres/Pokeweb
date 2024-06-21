@@ -1,0 +1,68 @@
+.btn-with-bg {
+  background-image: url("../assets/ImagenPokeBoton.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.banner {
+  background-image: url("../assets/ImagenPokeLogin.jpeg");
+  background-position: center;
+  background-size: cover;
+  image-orientation: from-image;
+  height: 200px;
+  width: 100%;
+  border-radius: 35px;
+}
+/*box-shadow: inset 8px 8px 16px #c5c5c5, inset -8px -8px 16px #ffffff;*/
+/* Estilos para el div contenedor con neumorfismo */
+.container {
+  background-color: #ffffffee;
+  border-radius: 35px;
+
+  box-shadow: 8px 8px 16px #616d9b55, -8px -8px 16px #b1ad6f3b;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 35%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.form-group {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.form-control {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 1px solid #e1e0e0;
+  background-color: #f0f0f3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.btn-with-bg {
+  border: none;
+  color: rgba(8, 8, 8, 0.986);
+  border-radius: 100px;
+  cursor: pointer;
+  width: 75px;
+  height: 75px;
+  box-shadow: 4px 4px 8px #babecc, -4px -4px 8px #ffffff;
+}
+.btn-with-bg:hover {
+  box-shadow: 2px 2px 4px #babecc, -2px -2px 4px #ffffff;
+}
